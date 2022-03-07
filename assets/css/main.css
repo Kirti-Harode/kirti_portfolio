@@ -148,8 +148,16 @@ input, select, textarea {
 
 		header > p {
 			margin: 1em 0 0 0;
+			color: white;
 		}
 
+		header > h2 {
+			color: white;
+		}
+
+		header > strong {
+			font-size: 30px;
+		}
 	footer {
 		margin: 2em 0 0 0;
 	}
@@ -2233,6 +2241,9 @@ input, select, textarea {
 				#main > section.dark strong {
 					color: #fff;
 					border-color: inherit;
+					font-size: 50px;
+					font-weight: 500;
+
 				}
 
 				#main > section.dark a {
