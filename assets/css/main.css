@@ -148,11 +148,11 @@ input, select, textarea {
 
 		header > p {
 			margin: 1em 0 0 0;
-			color: white;
+			/* color: white; */
 		}
 
 		header > h2 {
-			color: white;
+			/* color: white; */
 		}
 
 		header > strong {
@@ -2235,7 +2235,7 @@ input, select, textarea {
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					color: inherit;
 				}
-				#main > section.dark h2{
+				.alt {
 					color: white;
 				}
 
