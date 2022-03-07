@@ -2657,3 +2657,10 @@ input, select, textarea {
 				}
 
 	}
+
+
+
+	.mypic{
+		width: 80px;
+		border-radius: 50%;
+	}
