@@ -151,10 +151,6 @@ input, select, textarea {
 			/* color: white; */
 		}
 
-		header > h2 {
-			/* color: white; */
-		}
-
 		header > strong {
 			font-size: 30px;
 		}
@@ -1768,12 +1764,12 @@ input, select, textarea {
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
+			/* background: #f00; */
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 55px;
+				height: 55px;
 			}
 
 		.image.fit {
@@ -2663,5 +2659,9 @@ input, select, textarea {
 	}
 
 	.alt {
+		color: white;
+	}
+
+	.top-header{
 		color: white;
 	}
