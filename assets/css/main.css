@@ -1761,7 +1761,8 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 100%;
+			/* width: 100%; */
+			width: 300px;
 		}
 
 		.image.avatar48 {
@@ -2658,8 +2659,7 @@ input, select, textarea {
 
 
 	.mypic{
-		width: 80px;
-		border-radius: 50%;
+		margin-left: 360px;
 	}
 
 	.alt {
