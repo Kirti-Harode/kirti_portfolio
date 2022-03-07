@@ -1736,8 +1736,12 @@ input, select, textarea {
 		section > .container, section:last-child, article > :last-child,
 		article > .container, article:last-child {
 			margin-bottom: 0;
+
 		}
 
+		section > .container{
+			color: white;
+		}
 		.row > section, .row > article {
 			margin-bottom: 0;
 		}
