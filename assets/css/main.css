@@ -2235,10 +2235,7 @@ input, select, textarea {
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					color: inherit;
 				}
-				.alt {
-					color: white;
-				}
-
+				
 				#main > section.dark p{
 					color: white;
 				} 
@@ -2663,4 +2660,8 @@ input, select, textarea {
 	.mypic{
 		width: 80px;
 		border-radius: 50%;
+	}
+
+	.alt {
+		color: white;
 	}
