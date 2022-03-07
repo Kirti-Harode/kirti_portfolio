@@ -1989,6 +1989,8 @@ input, select, textarea {
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		display: flex;
+		flex-direction: row;
 	}
 
 		.item header {
@@ -1996,6 +1998,7 @@ input, select, textarea {
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+			width: 100%
 		}
 
 			.item header h3 {
