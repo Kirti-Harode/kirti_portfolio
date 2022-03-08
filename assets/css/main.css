@@ -332,11 +332,11 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			/* width: 33.33333%; */
 		}
 
 		.row > .off-4 {
-			margin-left: 33.33333%;
+			/* margin-left: 33.33333%; */
 		}
 
 		.row > .col-5 {
@@ -1758,7 +1758,10 @@ input, select, textarea {
 		.image img {
 			display: block;
 			/* width: 100%; */
-			width: 300px;
+			/* width: 300px;
+			 */
+			 width: 500px;
+			 /* height: 400px; */
 		}
 
 		.image.avatar48 {
@@ -1774,7 +1777,8 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 100%;
+			/* width: 100%; */
+			margin-right: 60px;
 		}
 
 		.image.featured {
@@ -1994,11 +1998,12 @@ input, select, textarea {
 	}
 
 		.item header {
-			background: #fff;
+			/* background: #fff; */
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
-			width: 100%
+			/* width: 100% */
+			width: 400px;
 		}
 
 			.item header h3 {
@@ -2667,4 +2672,43 @@ input, select, textarea {
 
 	.top-header{
 		color: white;
+	}
+
+	.container-skills{
+		width: 100%;
+		background-color: #f5fafa;
+	}
+
+	.skills{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.languages{
+		margin-right: 90px;
+		margin-left: 30px;
+		margin-top: 40px;
+	}
+
+	.row{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.project-info{
+		margin-left: 20px;
+	}
+
+
+	.pro-details{
+		font-size: 1.2rem;
+		color: rgb(37, 37, 37);
+		font-weight: 300;
+	}
+
+	.pro-heading{
+		font-size: 30px;
+		font-weight: 800;
 	}
