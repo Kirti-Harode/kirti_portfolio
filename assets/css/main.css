@@ -1756,12 +1756,16 @@ input, select, textarea {
 	}
 
 		.image img {
-			display: block;
+			/* display: block; */
 			/* width: 100%; */
 			/* width: 300px;
 			 */
 			 width: 500px;
 			 /* height: 400px; */
+			 display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 10px;
 		}
 
 		.image.avatar48 {
@@ -1986,6 +1990,7 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: #7eaeac;
+			box-shadow: 0px 4px 6px #acaaaa;
 		}
 
 /* Item */
@@ -2663,9 +2668,15 @@ input, select, textarea {
 
 
 	.mypic{
-		margin-left: 360px;
+		/* margin-left: 360px; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
-
+	.myimage{
+		width: 400px;
+		margin-bottom: 10px;
+	}
 	.alt {
 		color: white;
 	}
@@ -2695,6 +2706,8 @@ input, select, textarea {
 	.row{
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+    	justify-content: center;
 	}
 
 	.project-info{
@@ -2706,9 +2719,171 @@ input, select, textarea {
 		font-size: 1.2rem;
 		color: rgb(37, 37, 37);
 		font-weight: 300;
+		/* padding-right: 20px; */
 	}
 
 	.pro-heading{
 		font-size: 30px;
 		font-weight: 800;
+		margin-bottom: 10px;
+	}
+
+	#mevert{
+		margin-left: 100px;
+	}
+
+	.mevert-pro{
+		margin-left: 50px;
+	}
+
+	.code-live{
+		color: rgb(71, 71, 71);
+		font-weight: 400;
+	}
+
+	.some-pro-heading{
+		margin-bottom: 20px;
+	}
+
+	.skills-icons{
+		margin-bottom: 20px;
+		/* margin-right: 10px; */
+		width: 120px;
+		height: 40px;
+	}
+
+	.my-contacts{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.address, .email, .phone{
+		width: 280px;
+		height: 160px;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-right: 80px;
+		border-radius: 10px;
+		box-shadow: inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.05);
+		cursor: pointer;
+		margin-bottom: 20px;
+	}
+	.address:hover, .email:hover, .phone:hover{
+		/* border: 1px solid rgba(216, 216, 216, 0.76); */
+		box-shadow: 0px 4px 6px #acaaaa;
+	}
+
+	#phone-icon, #email-icon, #address-icon{
+		font-size: 50px;
+		margin-top: 42px;
+		color: rgb(204, 98, 116);
+	}
+
+	.phone-heading{
+		font-size: 18px;
+		color: rgb(19, 19, 19);
+		font-weight: 400;
+	}
+
+	.contact-details{
+		margin-top: 10px;
+		color: rgb(19, 19, 19);
+		font-size: 18px;
+	}
+
+	.pro-image{
+		width: 100%;
+	}
+	.pro-image:hover{
+		cursor: pointer;
+		box-shadow: 0px 4px 6px #acaaaa;
+	}
+	
+	/* .side-bar{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	} */
+
+	.education-outer-div{
+		background-color: #f5fafa;
+	}
+	.education-heading{
+		font-size: 40px;
+		font-weight: 500;
+		margin-bottom: 30px;
+		margin-top: -40px;
+	}
+	.app-image, .collage-img{
+		width: 70px;
+		height: 70px;
+	}
+
+	.app-academy, .college{
+		display: flex;
+		justify-content: center;
+		/* align-items: center; */
+	}
+	.app-details, .clg-details{
+		margin-left: 30px;
+	}
+
+	.app-acd-heading{
+		margin-left: -230px;
+		/* margin-top: -10px; */
+		font-size: 20px;
+		font-weight: 500;
+		color: #313131;
+	}
+	.app-acd-details{
+		font-size: 19px;
+	}
+
+	.app-dates{
+		font-size: 18px;
+		padding-left: 80px;
+		margin-top: 5px;
+		
+	}
+	.dates{
+		/* font-weight: 400; */
+		color: #313131;
+	}
+
+	.clg-heading{
+		font-size: 20px;
+		font-weight: 500;
+		color: #313131;
+		/* margin-left: 80px; */
+		font-family: Source Sans Pro, sans-serif;
+	}
+
+	.collage-img{
+		/* margin-left: 20px; */
+	}
+
+	.clg-info-details{
+		font-size: 19px;
+		margin-left: -76px;
+	}
+
+	.degree-dates{
+		color: #313131;
+
+	}
+
+	.clg-dates{
+		font-size: 18px;
+		margin-left: 50px;
+		margin-top: 2px;
+	}
+
+	.app-image{
+		margin-left: 10px;
 	}

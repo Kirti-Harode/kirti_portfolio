@@ -6,10 +6,11 @@
 -->
 <html>
 	<head>
-		<title>Prologue by HTML5 UP</title>
+		<title>Kirtibala Harode</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://kit.fontawesome.com/5ae7f0f640.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	</head>
 	<body class="is-preload">
@@ -29,10 +30,10 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+								<li class="side-bar"><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li class="side-bar"><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li class="side-bar"><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li ><a href="#contact" class="side-bar" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
 
@@ -46,7 +47,7 @@
 						<li><a href="https://www.facebook.com/kirti.harode" class="icon brands fa-facebook-f" target="_blank" ><span class="label">Facebook</span></a></li>
 						<li><a href="https://github.com/Kirti-Harode" class="icon brands fa-github" target="_blank" ><span class="label">Github</span></a></li>
 						<li><a href="https://angel.co/u/kirti-harode" class="icon brands fa-angellist" target="_blank" ><span class="label">AngelList</span></a></li>
-						<li><a href="kikihrd20@gmail.com" class="icon solid fa-envelope" target="_blank" ><span class="label">Email</span></a></li>
+						<li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" class="icon solid fa-envelope" target="_blank" ><span class="label">Email</span></a></li>
 					</ul>
 
 				</div>
@@ -66,7 +67,7 @@
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">More</a>
+								<a href="https://drive.google.com/file/d/1Oe8gEWpd77FHzixczOahD6A13eBf_dVu/view?usp=sharing" target="_blank" class="button scrolly">Resume</a>
 							</footer>
 
 						</div>
@@ -83,33 +84,43 @@
 							<p> At App Academy I spent 80-100 hrs a week 
 							    learning - React, Redux, JavaScript, Ruby on Rails, SQL, HTML, CSS, MongoDB, PostgreSQL, AWS, Github among others.
 							</p>
-							<br/>
-							<h3>Some of my Projects are</h3>
+							<!-- <br/> -->
+							<h3 class="some-pro-heading">Some of my Projects are: </h3>
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="https://connectedin.herokuapp.com/#/" class="image fit"><img src="images/project_pic.png" alt="" target="_blank"  /></a>
+										<a href="https://connectedin.herokuapp.com/#/" target="_blank" class="image fit"><img src="images/project_pic.png" alt="" class="pro-image" /></a>
 										<header class="project-info">
 											<h1 class="pro-heading">ConnectIn</h1>
+											<div>
 											<p class="pro-details">ConnectIn is a Clone of a professional networking site LinkedIn,
 											In connectIn users can make their profile edit profile information, 
 											connect with other users, share posts, and comment/Like each other's posts.
-											Implemented using Ruby on Rails, React, Redux, HTML, CSS, PostgreSQL. </p>
+											Implemented using Ruby on Rails, React, Redux, HTML, CSS, PostgreSQL. 
+											</p>
+											<a href="https://connectedin.herokuapp.com/#/" target="_blank" class="code-live">Live | </a>
+											<a href="https://github.com/Kirti-Harode/ConnectIn" target="_blank" class="code-live">Code</a>
+										</div>
 										</header>
 									</article>
 									
 								</div>
 								<div class="col-4 col-12-mobile">
 									
-									<article class="item">
+									<article class="item " >
 										<header class="project-info">
 											<h1 class="pro-heading">MEvert </h1>
-											<p class="pro-details">Single page web application where users take a quiz to receive personalized activities that they can plan 
-												and reflect upon. Built with Moongose, Express.js, MongoDB, React, Redux, JavaScript. </p>
+											<div>					
+											<p class="pro-details mevert-pro">Single page web application where users take a quiz to receive personalized activities that they can plan 
+												and reflect upon. Built with Moongose, Express.js, MongoDB, React, Redux, JavaScript.
+											</p>
+												<a href="https://mevert.herokuapp.com/?#/" target="_blank" class="code-live">Live | </a>
+												<a href="https://github.com/annkim10/mevert" target="_blank" class="code-live">Code</a>
+											</div>
 										</header>
 
-										<a href="https://mevert.herokuapp.com/?#/" class="image fit"><img src="images/calendar.gif" alt="" target="_blank" /></a>
+										<a href="https://mevert.herokuapp.com/?#/" class="image fit" target="_blank" ><img src="images/calendar.gif" alt="" id="mevert"  class="pro-image"/></a>
 										
 									</article>
 									<!-- <article class="item">
@@ -120,13 +131,20 @@
 									</article> -->
 								</div>
 								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://kirti-harode.github.io/SaveTheEarth" class="image fit"><img src="images/screenShot.png" alt="" target="_blank" /></a>
+									<article class="item">							
+										<a href="https://kirti-harode.github.io/SaveTheEarth" class="image fit " target="_blank"><img src="images/screenShot.png" alt=""  class="pro-image"/></a>
+																				
 										<header class="project-info">
 											<h1 class="pro-heading">Save The Earth</h1>
-											<p class="pro-details"> Save the Earth is an interactive game where all the planets are moving around
-												the sun and asteroids are firing towards the Earth, user destroys the asteroids
-											   	using the Gun and saves the Earth. Implemented using Javascript, Canvas, HTML, CSS.</p>
+											<div>
+												<p class="pro-details"> Save the Earth is an interactive game where all the planets are moving around
+													the sun and asteroids are firing towards the Earth, user destroys the asteroids
+													using the Gun and saves the Earth. Implemented using Javascript, Canvas, HTML, CSS.
+												</p>
+												<a href="https://kirti-harode.github.io/SaveTheEarth/" target="_blank"  class="code-live">Live | </a>
+												<a href="https://github.com/Kirti-Harode/SaveTheEarth" target="_blank" class="code-live">Code</a>
+											</div>
+											
 										</header>
 									</article>
 									<!-- <article class="item">
@@ -151,29 +169,42 @@
 						<h2>SKILLS</h2>
 						<div class="skills">
 							<ul class="languages">
-								<h4><i class="icons devicon-ruby-plain colored"></i><br />Ruby</h4>
+								<!-- <h4><i class="icons devicon-ruby-plain colored"></i><br />Ruby</h4>
 								<h4><i class="icons devicon-rails-plain colored"></i><br />Rails</h4>
-								<h4><i class="icons devicon-react-original colored"></i><br />React</h4>
+								<h4><i class="icons devicon-react-original colored"></i><br />React</h4> -->
+								<h4 ><img src="https://img.shields.io/badge/ruby-%23593d88.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="" class="skills-icons"></h4>
+								<h4><img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="" class="skills-icons"></h4>
+								<h4><img src="https://img.shields.io/badge/react-%231572B6.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="" class="skills-icons"></h4>
+								<h4> <img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" alt="" class="skills-icons"></h4>
 							</ul>
 							<ul class="languages">
-								<h4><i class="icons devicon-javascript-plain colored"></i><br />Javascript</h4>
-								<h4><i class="icons devicon-html-plain colored"></i><br />HTML</h4>
-
-								<!-- <h4><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"> -->
-									<!-- <g fill="#764ABC">
-										<path d="M65.6 65.4c2.9-.3 5.1-2.8 5-5.8-.1-3-2.6-5.4-5.6-5.4h-.2c-3.1.1-5.5 2.7-5.4 5.8.1 1.5.7 2.8 1.6 3.7-3.4 6.7-8.6 11.6-16.4 15.7-5.3 2.8-10.8 3.8-16.3 3.1-4.5-.6-8-2.6-10.2-5.9-3.2-4.9-3.5-10.2-.8-15.5 1.9-3.8 4.9-6.6 6.8-8-.4-1.3-1-3.5-1.3-5.1-14.5 10.5-13 24.7-8.6 31.4 3.3 5 10 8.1 17.4 8.1 2 0 4-.2 6-.7 12.8-2.5 22.5-10.1 28-21.4z"/>
-										<path d="M83.2 53c-7.6-8.9-18.8-13.8-31.6-13.8H50c-.9-1.8-2.8-3-4.9-3h-.2c-3.1.1-5.5 2.7-5.4 5.8.1 3 2.6 5.4 5.6 5.4h.2c2.2-.1 4.1-1.5 4.9-3.4H52c7.6 0 14.8 2.2 21.3 6.5 5 3.3 8.6 7.6 10.6 12.8 1.7 4.2 1.6 8.3-.2 11.8-2.8 5.3-7.5 8.2-13.7 8.2-4 0-7.8-1.2-9.8-2.1-1.1 1-3.1 2.6-4.5 3.6 4.3 2 8.7 3.1 12.9 3.1 9.6 0 16.7-5.3 19.4-10.6 2.9-5.8 2.7-15.8-4.8-24.3z"/>
-										<path d="M32.4 67.1c.1 3 2.6 5.4 5.6 5.4h.2c3.1-.1 5.5-2.7 5.4-5.8-.1-3-2.6-5.4-5.6-5.4h-.2c-.2 0-.5 0-.7.1-4.1-6.8-5.8-14.2-5.2-22.2.4-6 2.4-11.2 5.9-15.5 2.9-3.7 8.5-5.5 12.3-5.6 10.6-.2 15.1 13 15.4 18.3 1.3.3 3.5 1 5 1.5-1.2-16.2-11.2-24.6-20.8-24.6-9 0-17.3 6.5-20.6 16.1-4.6 12.8-1.6 25.1 4 34.8-.5.7-.8 1.8-.7 2.9z"/>
-									</g> -->
-								<!-- </svg><br /> -->
-								<h4><i class="icons devicon-html-plain colored"></i>Redux</h4>
+								<!-- <h4><i class="skills-icons devicon-javascript-plain colored"></i><br />Javascript</h4>
+								<h4><i class="fa-brands fa-html5"></i><br />HTML</h4> -->
+								<h4> <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="" class="skills-icons"></h4>
+								<h4> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="" class="skills-icons"></h4>
+								<h4> <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="" class="skills-icons"></h4>
+								<h4> <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" alt="" class="skills-icons"></h4>
 								
 							</ul>
 							<ul class="languages">
-								<h4><i class="icons devicon-amazonwebservices-original colored"></i><br />AWS</h4>
-								<h4><i class="icons devicon-jquery-plain colored"></i><br />Jquery</h4>
-								<h4><i class="icons devicon-postgresql-plain colored"></i><br />PostgreSQL</h4>
-								<!-- <li><i class="icons devicon-python-plain colored"></i><br />Python</li> -->
+								<!-- <h4><i class="skills-icons devicon-amazonwebservices-original colored"></i><br />AWS</h4>
+								<h4><i class="skills-icons devicon-jquery-plain colored"></i><br />Jquery</h4>
+								<h4><i class="skills-icons devicon-postgresql-plain colored"></i><br />PostgreSQL</h4> -->
+								<!-- <li><i class="skills-icons devicon-python-plain colored"></i><br />Python</li> -->
+								<h4> <img src="https://img.shields.io/badge/postgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="" class="skills-icons"></h4>
+								<h4> <img src="https://img.shields.io/badge/Mongoose-%234ea94b.svg?style=for-the-badge&logo=mongoose.js&logoColor=white" alt="" class="skills-icons"></h4>
+								<h4> <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="" class="skills-icons"></h4>
+								<h4> <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="" class="skills-icons"></h4>
+							</ul>
+							<ul class="languages">
+								<!-- <h4><i class="skills-icons devicon-amazonwebservices-original colored"></i><br />AWS</h4>
+								<h4><i class="skills-icons devicon-jquery-plain colored"></i><br />Jquery</h4>
+								<h4><i class="skills-icons devicon-postgresql-plain colored"></i><br />PostgreSQL</h4> -->
+								<!-- <li><i class="skills-icons devicon-python-plain colored"></i><br />Python</li> -->
+								<h4> <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="" class="skills-icons"></h4>
+								<h4> <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" alt="" class="skills-icons"></h4>
+								<h4> <img src="https://img.shields.io/badge/Canvas-F5788D.svg?style=for-the-badge&logo=html5&logoColor=white" alt="" class="skills-icons"></h4>
+								<h4> <img src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black" alt="" class="skills-icons"></h4>
 							</ul>
 						</div>
 					</section>
@@ -185,8 +216,8 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/mypic1.png" alt="" class="mypic" /></a>
-
+							<a href="#"  class="mypic" ><img src="images/mypic1.png" alt="" class="myimage" /></a>
+							<!-- class="image featured" -->
 							<p>When I was younger, I really enjoyed playing games on my computer, 
 								I was fascinated by how the computer screen could come to life and make a game that is so entertaining.  
 								This interest in technology led me to pursue Electrical and Electronics Engineering at University, 
@@ -198,6 +229,37 @@
 								Afterward, I began learning how to code myself through online tutorials like Harvard’s CS50 and Code Academy’s Intro to JavaScript. 
 								All these experiences cemented my passion for programming and led me to join App Academy, a rigorous coding Bootcamp.  </p>
 
+						</div>
+					</section>
+
+					<section class="education-outer-div">
+						<div class="education-heading">
+							<h1>Education</h1>
+						</div>
+						<div class="app-academy">
+							<img class="app-image" src="images/app-academy-logo.png"/>
+							<div class="app-academy-info">
+								<div class="app-details">
+									<h3 class="app-acd-heading">App Academy</h3>
+									<p class="app-acd-details">Immersive Software Development Bootcamp</p>
+								</div>
+							</div>
+							<div class="app-dates">
+								<h4 class="dates"> 2021-2022</h4>
+							</div>
+						</div>
+
+						<div class="college">
+							<img class="collage-img" src="images/clg-logo.png"/>
+							<div class="college-info">
+								<div class="clg-details">
+									<h2 class="clg-heading" >Rajiv Gandhi Prodhyogiki Vishwavidhyalaya, India</h2>
+									<p class="clg-info-details">Electrical and Electronics Engineering</p>
+								</div>
+							</div>
+							<div class="clg-dates"> 
+								<h4 class="degree-dates">2013-2017</h4>
+							</div>
 						</div>
 					</section>
 
@@ -224,6 +286,23 @@
 								</div>
 							</form> -->
 
+							<div class="my-contacts">
+								<div class="address">
+									<h4 class="phone-heading"> <i class="fa-solid fa-location-dot" id="address-icon"></i> <br/> Address</h4>
+									<p class="contact-details">San Francisco Bay Area</p>
+								</div>
+
+								<div class="phone">
+									<h4 class="phone-heading"> <i class="fa-solid fa-square-phone" id="phone-icon"></i> <br/>  Phone</h4>
+									<p class="contact-details">(650)-223-4468</p>
+								</div>
+
+								<div class="email">
+									<h4 class="phone-heading"> <i class="fa-solid fa-envelope" id="email-icon"></i> <br/>  Email</h4>
+									<p class="contact-details">kikihrd20@gmail.com</p>
+								</div>
+							
+							</div>
 							<div class="bottom">
 
 								<!-- Social Icons -->
@@ -232,7 +311,7 @@
 										<li><a href="https://www.facebook.com/kirti.harode" class="icon brands fa-facebook-f" target="_blank" ><span class="label">Facebook</span></a></li>
 										<li><a href="https://github.com/Kirti-Harode" class="icon brands fa-github" target="_blank" ><span class="label">Github</span></a></li>
 										<li><a href="https://angel.co/u/kirti-harode" class="icon brands fa-angellist" target="_blank" ><span class="label">AngelList</span></a></li>
-										<li><a href="kikihrd20@gmail.com" class="icon solid fa-envelope" target="_blank" ><span class="label">Email</span></a></li>
+										<li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" class="icon solid fa-envelope" target="_blank" ><span class="label">Email</span></a></li>
 									</ul>
 			
 							</div>
