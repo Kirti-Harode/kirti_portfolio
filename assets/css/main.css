@@ -1765,7 +1765,7 @@ input, select, textarea {
 			 display: flex;
 			justify-content: center;
 			align-items: center;
-			margin-top: 10px;
+			/* margin-top: 10px; */
 		}
 
 		.image.avatar48 {
@@ -1783,6 +1783,7 @@ input, select, textarea {
 			display: block;
 			/* width: 100%; */
 			margin-right: 60px;
+			/* margin-top: 10px; */
 		}
 
 		.image.featured {
@@ -2798,6 +2799,7 @@ input, select, textarea {
 
 	.pro-image{
 		width: 100%;
+		margin-top: 40px;
 	}
 	.pro-image:hover{
 		cursor: pointer;
