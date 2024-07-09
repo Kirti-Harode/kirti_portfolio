@@ -2889,3 +2889,16 @@ input, select, textarea {
 	.app-image{
 		margin-left: 10px;
 	}
+
+	.exp-key-points{
+		color: #222729;
+		text-align: left;
+		font-size: 0.9rem;
+	}
+	.experience-outer-div{
+		margin: auto;
+	}
+
+	.certification-outer-div{
+		
+	}
