@@ -218,7 +218,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: 100%;
+		margin-right: 50px;
 		width: 1400px;
 	}
 
@@ -2669,7 +2669,6 @@ input, select, textarea {
 
 
 	.mypic{
-		/* margin-left: 360px; */
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -2677,6 +2676,10 @@ input, select, textarea {
 	.myimage{
 		width: 400px;
 		margin-bottom: 10px;
+	}
+	.about-para{
+		font-size: 1.0rem;
+		color: #222629;
 	}
 	.alt {
 		color: white;
@@ -2720,7 +2723,6 @@ input, select, textarea {
 		font-size: 1.2rem;
 		color: rgb(37, 37, 37);
 		font-weight: 300;
-		/* padding-right: 20px; */
 	}
 
 	.pro-heading{
@@ -2775,7 +2777,6 @@ input, select, textarea {
 		margin-bottom: 20px;
 	}
 	.address:hover, .email:hover, .phone:hover{
-		/* border: 1px solid rgba(216, 216, 216, 0.76); */
 		box-shadow: 0px 4px 6px #acaaaa;
 	}
 
@@ -2805,46 +2806,15 @@ input, select, textarea {
 		cursor: pointer;
 		box-shadow: 0px 4px 6px #acaaaa;
 	}
-	
-	/* .side-bar{
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-	} */
 
-	.education-outer-div{
-		background-color: #f5fafa;
+	.education-outer-div, .about-outer-div{
+		background-color: #f5fafa; 
 	}
 	.education-heading{
 		font-size: 40px;
 		font-weight: 500;
 		margin-bottom: 30px;
 		margin-top: -40px;
-	}
-	.app-image, .collage-img{
-		width: 70px;
-		height: 70px;
-	}
-
-	.app-academy, .college{
-		display: flex;
-		justify-content: center;
-		/* align-items: center; */
-	}
-	.app-details, .clg-details{
-		margin-left: 30px;
-	}
-
-	.app-acd-heading{
-		margin-left: -230px;
-		/* margin-top: -10px; */
-		font-size: 20px;
-		font-weight: 500;
-		color: #313131;
-	}
-	.app-acd-details{
-		font-size: 19px;
 	}
 
 	.app-dates{
@@ -2854,7 +2824,6 @@ input, select, textarea {
 		
 	}
 	.dates{
-		/* font-weight: 400; */
 		color: #313131;
 	}
 
@@ -2862,17 +2831,12 @@ input, select, textarea {
 		font-size: 20px;
 		font-weight: 500;
 		color: #313131;
-		/* margin-left: 80px; */
 		font-family: Source Sans Pro, sans-serif;
-	}
-
-	.collage-img{
-		/* margin-left: 20px; */
 	}
 
 	.clg-info-details{
 		font-size: 19px;
-		margin-left: -76px;
+		text-align: left;
 	}
 
 	.degree-dates{
@@ -2886,19 +2850,92 @@ input, select, textarea {
 		margin-top: 2px;
 	}
 
-	.app-image{
-		margin-left: 10px;
+	.certification-outer-div{
+		background-color: #f5fafa;
+	}
+	.certification-heading{
+		font-size: 40px;
+		font-weight: 500;
+		margin-bottom: 30px;
+		margin-top: -40px;
 	}
 
-	.exp-key-points{
+	.ias-div, 
+	.bhel-div, 
+	.app-academy, 
+	.college,
+	.harvards-div,
+	.meta-div,
+	.cutshort-div{
+		display: flex;
+		margin-left: 50px;
+		font-size: 16px;
+		text-align: left;
+		justify-content: space-between;
+	}
+	.ias-img-div, 
+	.bhel-info, 
+	.app-academy-info, 
+	.college-info,
+	.harvards-info,
+	.meta-info,
+	.cutshort-info{
+		display: flex;
+	}
+	.ias-details, 
+	.bhel-details, 
+	.clg-details, 
+	.app-details,
+	.harvards-details-div,
+	.meta-details,
+	.cutshort-details
+	{
+		margin-left: 40px;
+		text-align: left;
+	}
+
+	.ias-dates, 
+	.bhel-dates, 
+	.clg-dates, 
+	.app-dates,
+	.meta-dates,
+	.cutshort-dates,
+	.app-dates
+	{
+		margin-right: 55px
+	}
+
+	.bhel-details, .bhel-dates{
+		margin-top: 10px;
+	}
+	.exp-key-points {
 		color: #222729;
 		text-align: left;
 		font-size: 0.9rem;
 	}
-	.experience-outer-div{
-		margin: auto;
+	.experience-outer-div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 50px;
+		margin-right: 40px;
+		height: 50%;
+	}
+	.headings{
+		color: #151718;
 	}
 
-	.certification-outer-div{
-		
+	.key-headings{
+		color: #222629;
+		text-align: left;
 	}
+	.sub-headings{
+		color:#333
+	}
+	.bhel-img{
+		margin-left: -10px;
+	}
+
+	/* .portfolio{
+		margin-right: 100px
+	} */
